@@ -35,7 +35,7 @@ apis:
   tags: Fields
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-custom-fields-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-custom-fields-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
