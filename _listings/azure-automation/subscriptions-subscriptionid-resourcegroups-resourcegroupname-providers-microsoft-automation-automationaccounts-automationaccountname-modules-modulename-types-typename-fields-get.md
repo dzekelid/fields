@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Fields List By Type
   version: 1.0.0
+  description: Retrieve a list of fields of a given type identified by module name.
 host: management.azure.com
 basePath: /
 schemes:
