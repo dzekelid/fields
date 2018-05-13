@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-reserved-fields-get.md
-- name: SendGrid Get Contactdb Custom Fields Custom Field
+- name: SendGrid Get Contactdb Reserved Fields
   description: |-
-    **This endpoint allows you to retrieve a custom field by ID.**
+    **This endpoint allows you to list all fields that are reserved and can't be used for custom field names.**
 
     The contactdb is a database of your contacts for [SendGrid Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
@@ -47,9 +47,9 @@ apis:
   tags: Fields
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-custom-fields-custom-field-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-reserved-fields-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-custom-fields-custom-field-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/sendgrid/contactdb-reserved-fields-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
