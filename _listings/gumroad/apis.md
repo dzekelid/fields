@@ -1,39 +1,57 @@
 ---
 name: Gumroad
-description: Gumroad enables creatives to sell directly to their audience ??? so that
-  they can make a living doing what they love. Writers, designers, game developers,
-  musicians, artists, and filmmakers use Gumroad to earn money off of their creative
-  efforts.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
+x-slug: gumroad
+description: Sell music, comics, software, books, and films directly to your audience.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Videos
-- Videos
-- Target
-- Stack Network
-- Social
-- Shopping
-- Product
-- My API Stack
-- Music
-- Documents
-- Commerce
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "4658"
+tags: Fields
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gumroad Put Products Custom Fields Name
-  description: Edit an existing products custom field.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
-  humanURL: https://gumroad.com
+- name: Gumroad - Get Products Custom Fields
+  x-api-slug: productsproduct-idcustom-fields-get
+  description: Retrieve all of the existing custom fields for a product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
   baseURL: https://api.gumroad.com//v2
-  tags: Fields
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/gumroad/products-product-id-custom-fields-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/gumroad/productsproduct-idcustom-fields-get-openapi.md
+- name: Gumroad - Post Products Custom Fields
+  x-api-slug: productsproduct-idcustom-fields-post
+  description: Create a new custom field for a product.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/gumroad/productsproduct-idcustom-fields-post-openapi.md
+- name: Gumroad - Put Products Custom Fields Name
+  x-api-slug: productsproduct-idcustom-fieldsname-put
+  description: Edit an existing products custom field.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
+  humanURL: http://gumroad.com
+  baseURL: https://api.gumroad.com//v2
+  tags: Commerce, Shopping, Social, Videos, Music, Documents, Videos, My API Stack,
+    Target, Stack Network, Media, Technology, internet, Marketplace, Services, API
+    Provider, Products, Profiles, Relative Data, Service API, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fields/master/_listings/gumroad/productsproduct-idcustom-fieldsname-put-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gsa.per.diem.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gumroad.stack.network
 - type: x-application-management
   url: https://gumroad.com/settings/developer
 - type: x-base
@@ -42,10 +60,14 @@ x-common:
   url: http://blog.gumroad.com
 - type: x-blog-rss
   url: http://blog.gumroad.com/rss
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/gumroad
 - type: x-developer
   url: https://gumroad.com/developers
 - type: x-email
   url: partners@gumroad.com
+- type: x-email
+  url: support@gumroad.com
 - type: x-embeddable
   url: https://gumroad.com/embed
 - type: x-github
@@ -60,6 +82,8 @@ x-common:
   url: https://twitter.com/gumroad
 - type: x-webhooks
   url: https://gumroad.com/webhooks
+- type: x-website
+  url: http://gumroad.com
 - type: x-website
   url: https://gumroad.com
 include: []
